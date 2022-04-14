@@ -1,0 +1,29 @@
+.cell {
+    border: 1px solid black;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+  }
+
+.gridRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:hover {
+    background-color: blue;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.gridContainer {
+    margin: 0;
+    padding: 20px 0px;
+}
